@@ -1,0 +1,28 @@
+<div class="container" ng-controller="CodeController">
+	<h1 class="text-center">Pokemon Mystery Dungeon</h1>
+	<h2 class="text-center">Password Sharer</h2>
+
+	
+		<nav class="navbar navbar-expand-sm sticky-top d-flex justify-content-center">
+
+		<canvas id="myCanvas2" class="text-center" width="764" height="120" style="border:1px solid #d3d3d3;">
+			Pokemon Mystery Dungeon Password Sharer doesn't like your browser because it does not support the HTML5 canvas tag.
+		</canvas>	
+
+	</nav>
+	
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="text-center" id="passType"></h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<!-- Button actions -->
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary" ng-click="reloadRoute();" >Reload page</button>
+				<button type="button" class="btn btn-primary" ng-click="goHome();" id="goHome" >Share revival password</button>
+			</div>
+		</div>
+	</div>
+</div>
